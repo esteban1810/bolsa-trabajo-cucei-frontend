@@ -1,19 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import './App.css';
+import React from 'react';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('/api')
-      .then(response => response.json())
-      .then(data => setMessage(data.message));
-  }, []);
-
   return (
     <div className="App">
       <header className="App-header">
-        <p>{message}</p>
+        <h1 className="text-3xl font-bold underline">
+          Hello, Tailwind CSS!
+        </h1>
       </header>
     </div>
   );
