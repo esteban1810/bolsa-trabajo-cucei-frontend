@@ -4,8 +4,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: '#1E40AF', // Personaliza según tu necesidad
+      colors:{
+        'primary':'#D87A2D'
+      },
+      width: {
+        'custom': 'min(120rem, 95%)',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/images/image.png.svg')",
       },
     },
   },

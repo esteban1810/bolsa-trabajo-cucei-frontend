@@ -1,0 +1,4 @@
+.custom-width {
+    width: min(120rem, 95%);
+    margin: auto;
+}
