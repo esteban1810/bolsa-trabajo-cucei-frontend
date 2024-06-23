@@ -1,9 +1,17 @@
 import React from "react";
-import banner_feria_empleo from '../images/banner_feria_empleo.png'
-import PhotoCard from "../components/form/PhotoCard";
 
-export default function Home(){
-    return <div>
-        {/* <PhotoCard image={banner_feria_empleo} title={"Feria del empleo"} date={"18 de octubre"}/> */}
-    </div>;
+export default function Home() {
+    return (
+        <div>
+            <div>
+                <iframe
+                    src="https://www.youtube.com/embed/ZqqEPWe1Ad0?si=I8fNbledssVRsXDe"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+    );
 }
