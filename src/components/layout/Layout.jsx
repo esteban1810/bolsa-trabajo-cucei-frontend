@@ -7,7 +7,7 @@ function Layout({ children }) {
         <div className="bg-gray-100">
             <Header />
 
-            <main className="custom-width py-6">{children}</main>
+            <main className="bg-whitecustom-width py-6">{children}</main>
 
             <Footer />
         </div>
