@@ -8,7 +8,7 @@ function Layout({ children }) {
             <Header />
 
             <main className="custom-width py-6">{children}</main>
-
+            
             <Footer />
         </div>
     );
