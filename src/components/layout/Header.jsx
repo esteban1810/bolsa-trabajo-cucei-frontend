@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from '../../images/logo_udg.png';
+import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+
+
 
 const Header = () => {
   return (
@@ -7,8 +11,11 @@ const Header = () => {
       <img src={logo} alt="Universidad de Guadalajara" className="mx-auto" />
       <div className="bg-primary py-1">
         <div className="custom-width flex justify-between items-center">
-          <h2 className="text-[1.4rem] font-bold text-white">Bolsa De Trabajo CUCEI</h2>
-          <i className="material-icons text-5xl text-white">account_circle</i>
+          <h2 className="text-[2rem] font-bold text-white">Bolsa De Trabajo CUCEI</h2>
+          <div>
+            <AccountCircleOutlinedIcon className='text-white mr-4 h-full' sx={{ fontSize: 40 }} />
+            <MenuOutlinedIcon className='text-white m-0' sx={{ fontSize: 50 }}/>
+          </div>
         </div>
       </div>
       <div className='custom-width bg-white flex justify-between'>
