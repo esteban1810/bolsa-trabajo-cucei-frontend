@@ -40,6 +40,8 @@ const Footer = () => {
                             <EmailOutlinedIcon className="pr-1" />
                             uvinc@cucei.udg.mx{" "}
                         </p>
+                        <strong>Horario de atención:</strong>
+                        <p>Lunes a viernes, de 9:00  las 17:00 horas.</p>
                     </div>
                 </div>
                 <div className="text-sm lg:w-1/4">
