@@ -1,13 +1,12 @@
 import React from "react";
 import descripcion from "../images/descripcion.png";
 import WorkOutlineRoundedIcon from "@mui/icons-material/WorkOutlineRounded";
-import EngineeringRoundedIcon from "@mui/icons-material/EngineeringRounded";
 
 export default function Home() {
     return (
         <div>
             {/* (START) DESCRIPTION CARD */}
-            <div className="bg-white rounded-md p-2">
+            <div className="bg-white rounded-md p-4">
                 <div>
                     <div className="flex items-center mb-2 space-x-2">
                         <div className="bg-primary rounded-md w-10 h-10 flex items-center justify-center">
