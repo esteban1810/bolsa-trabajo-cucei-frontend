@@ -15,6 +15,7 @@ const Header = () => {
         <a href="google.com">Inicio</a>
         <a href="google.com">Buscar Empleo</a>
         <a href="google.com">Postular Empleo</a>
+        <a href="google.com">Agendar Visita</a>
         <a href="google.com">Crear Curriculum</a>
         <a href="google.com">Participar en la feria del empleo</a>
       </div>
